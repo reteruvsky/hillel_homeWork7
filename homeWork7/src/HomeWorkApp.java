@@ -3,7 +3,7 @@ import java.util.Random;
 public class HomeWorkApp {
 
     public static void main(String[] args) {
-        printThreeWords("Orange", "Banana", "Apple");
+        printThreeWords();
         checkSumSign();
         printColor();
         compareNumbers();
@@ -14,10 +14,10 @@ public class HomeWorkApp {
         System.out.println(booleanYear(604));
     }
 
-    public static void printThreeWords(String one, String two, String three) {
-        System.out.println(one);
-        System.out.println(two);
-        System.out.println(three);
+    public static void printThreeWords() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
 
     public static void checkSumSign() {
